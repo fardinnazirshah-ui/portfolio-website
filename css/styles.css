@@ -118,3 +118,14 @@ h3{margin:0 0 10px 0;font-size:16px;font-weight:600}
   .exp{flex-direction:column}
   .exp-photo img{width:100%;height:auto}
 }
+
+body.keyboard-user a:focus {
+  outline: 2px solid #111;
+  outline-offset: 2px;
+}
+
+
+.nav a.active {
+  text-decoration: underline;
+  font-weight: 500;
+}
